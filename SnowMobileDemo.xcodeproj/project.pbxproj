@@ -21,6 +21,11 @@
 		79A8FECB18B8F40D00213113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A8FEAD18B8F40D00213113 /* UIKit.framework */; };
 		79A8FED318B8F40D00213113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79A8FED118B8F40D00213113 /* InfoPlist.strings */; };
 		79A8FED518B8F40D00213113 /* SnowMobileDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8FED418B8F40D00213113 /* SnowMobileDemoTests.m */; };
+		79A8FEDF18B8F61C00213113 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A8FEDE18B8F61C00213113 /* AVFoundation.framework */; };
+		79A8FEE118B8F7A000213113 /* CoinDropOnConcrete.caf in Resources */ = {isa = PBXBuildFile; fileRef = 79A8FEE018B8F7A000213113 /* CoinDropOnConcrete.caf */; };
+		79A8FEE418B91B4100213113 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A8FEE318B91B4100213113 /* AudioToolbox.framework */; };
+		79A8FEE718B9340200213113 /* Bubbles.caf in Resources */ = {isa = PBXBuildFile; fileRef = 79A8FEE218B916E800213113 /* Bubbles.caf */; };
+		79A8FEE918B93D9500213113 /* snowmobile.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 79A8FEE818B93D9500213113 /* snowmobile.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		79A8FED018B8F40D00213113 /* SnowMobileDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnowMobileDemoTests-Info.plist"; sourceTree = "<group>"; };
 		79A8FED218B8F40D00213113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79A8FED418B8F40D00213113 /* SnowMobileDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowMobileDemoTests.m; sourceTree = "<group>"; };
+		79A8FEDE18B8F61C00213113 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79A8FEE018B8F7A000213113 /* CoinDropOnConcrete.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoinDropOnConcrete.caf; sourceTree = "<group>"; };
+		79A8FEE218B916E800213113 /* Bubbles.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bubbles.caf; sourceTree = "<group>"; };
+		79A8FEE318B91B4100213113 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79A8FEE818B93D9500213113 /* snowmobile.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = snowmobile.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A8FEE418B91B4100213113 /* AudioToolbox.framework in Frameworks */,
+				79A8FEDF18B8F61C00213113 /* AVFoundation.framework in Frameworks */,
 				79A8FEAC18B8F40D00213113 /* CoreGraphics.framework in Frameworks */,
 				79A8FEAE18B8F40D00213113 /* UIKit.framework in Frameworks */,
 				79A8FEAA18B8F40D00213113 /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		79A8FEA818B8F40D00213113 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79A8FEE318B91B4100213113 /* AudioToolbox.framework */,
+				79A8FEDE18B8F61C00213113 /* AVFoundation.framework */,
 				79A8FEA918B8F40D00213113 /* Foundation.framework */,
 				79A8FEAB18B8F40D00213113 /* CoreGraphics.framework */,
 				79A8FEAD18B8F40D00213113 /* UIKit.framework */,
@@ -115,6 +129,9 @@
 				79A8FEB818B8F40D00213113 /* AppDelegate.h */,
 				79A8FEB918B8F40D00213113 /* AppDelegate.m */,
 				79A8FEBB18B8F40D00213113 /* Main.storyboard */,
+				79A8FEE218B916E800213113 /* Bubbles.caf */,
+				79A8FEE018B8F7A000213113 /* CoinDropOnConcrete.caf */,
+				79A8FEE818B93D9500213113 /* snowmobile.m4a */,
 				79A8FEBE18B8F40D00213113 /* ViewController.h */,
 				79A8FEBF18B8F40D00213113 /* ViewController.m */,
 				79A8FEC118B8F40D00213113 /* Images.xcassets */,
@@ -229,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A8FEC218B8F40D00213113 /* Images.xcassets in Resources */,
+				79A8FEE918B93D9500213113 /* snowmobile.m4a in Resources */,
 				79A8FEB418B8F40D00213113 /* InfoPlist.strings in Resources */,
 				79A8FEBD18B8F40D00213113 /* Main.storyboard in Resources */,
+				79A8FEE718B9340200213113 /* Bubbles.caf in Resources */,
+				79A8FEE118B8F7A000213113 /* CoinDropOnConcrete.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
